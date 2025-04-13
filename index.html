@@ -468,24 +468,26 @@
         </div>
         <div class="subscribe">
           <p class="footer-media-text">Subscribe</p>
-          <form>
+          <form class="subscribe-form">
             <label class="label-subscribe-footer" for="subscribe-email"
               ><input
                 name="subscribe-email"
                 class="subcribe-email"
                 type="email"
                 id="subscribe-email"
-                placeholder="E-mail" />
-              <button
-                type="button"
-                class="subscribe-button"
-                name="subscribe-email"
-              >
-                <span>Subscribe</span>
-                <svg class="subscribe-telegram-icons" width="24" height="20">
-                  <use href="./images/icons.svg#icon-telegram"></use>
-                </svg></button
-            ></label>
+                placeholder="E-mail"
+              />
+            </label>
+            <button
+              type="button"
+              class="subscribe-button"
+              name="subscribe-email"
+            >
+              <span>Subscribe</span>
+              <svg class="subscribe-telegram-icons" width="24" height="20">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -534,16 +536,14 @@
               >Comment<textarea
                 class="modal-textarea"
                 placeholder="Text input"
-                name="modal-user-email"
+                id="modal-user-email"
               ></textarea>
             </label>
             <div class="checkbox">
               <input type="checkbox" />
-              <label
+              <label class="modal-checkbox-text"
                 ><span class="modal-checkbox-block"></span>
-                <p class="modal-checkbox-text">
-                  I accept the terms and conditions of the
-                </p>
+                I accept the terms and conditions of the
                 <a href="" class="href-modal">Privacy Policy</a></label
               >
             </div>
