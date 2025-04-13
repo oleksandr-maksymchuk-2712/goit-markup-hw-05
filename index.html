@@ -466,15 +466,37 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe">
+          <p class="footer-media-text">Subscribe</p>
+          <form action="">
+            <label for="subscribe-email"
+              ><input
+                class="subcribe-email"
+                type="email"
+                id="subscribe-email"
+                placeholder="E-mail"
+            /></label>
+            <button type="button" class="subscribe-button">
+              Subscribe<svg
+                class="subscribe-telegram-icons"
+                width="30"
+                height="30"
+              >
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
-    <div class="modal-overlay is-open">
+    <!-- ~Modal~! -->
+    <div class="modal-overlay">
       <div class="modal">
-        <div class="svg-modal-x">
+        <button type="button" class="svg-modal-x">
           <svg width="8" height="8">
             <use href="./images/icons.svg#icon-modal-4"></use>
           </svg>
-        </div>
+        </button>
         <p class="modal-header">
           Leave your contacts and we will call you back
         </p>
@@ -482,7 +504,7 @@
           <div class="modal-form-div">
             <label class="modal-label" for="modal-user-name">Name </label>
             <div class="modal-input-block">
-              <input class="modal-input" type="text" />
+              <input class="modal-input" type="text" id="modal-user-name" />
               <svg class="modal-icon" width="12" height="12">
                 <use href="./images/icons.svg#icon-modal-1"></use>
               </svg>
@@ -491,7 +513,7 @@
           <div class="modal-form-div">
             <label class="modal-label" for="modal-user-tel">Phone</label>
             <div class="modal-input-block">
-              <input class="modal-input" type="tel" />
+              <input class="modal-input" type="tel" id="modal-user-tel" />
               <svg class="modal-icon" width="12" height="12">
                 <use href="./images/icons.svg#icon-modal-2"></use>
               </svg>
@@ -500,7 +522,7 @@
           <div class="modal-form-div">
             <label class="modal-label" for="modal-user-email">Email</label>
             <div class="modal-input-block">
-              <input class="modal-input" type="email" />
+              <input class="modal-input" type="email" id="modal-user-email" />
               <svg class="modal-icon" width="12" height="12">
                 <use href="./images/icons.svg#icon-modal-3"></use>
               </svg>
@@ -513,6 +535,16 @@
                 placeholder="Text input"
               ></textarea>
             </label>
+            <div class="checkbox">
+              <input type="checkbox" />
+              <label for=""
+                ><span class="modal-checkbox-block"></span>
+                <p class="modal-checkbox-text">
+                  I accept the terms and conditions of the
+                </p>
+                <a href="" class="href-modal">Privacy Policy</a></label
+              >
+            </div>
             <button class="modal-btn" type="button">Send</button>
           </div>
         </form>
