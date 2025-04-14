@@ -745,7 +745,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     text-decoration-skip-ink: none;
 }
 
-.modal-check:checked + label > span{
+.modal-check:checked + .modal-checkbox-text > .modal-checkbox-block{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
