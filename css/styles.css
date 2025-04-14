@@ -537,6 +537,7 @@ input::placeholder {
 
 .subscribe-telegram-icons{
     fill: #fff;
+    margin-left: 16px;
 }
 
 .subscribe-button{
@@ -550,7 +551,7 @@ font-weight: 500;
     color: #fff;
     padding: 8px 24px;
         border-radius: 4px;
-        gap: 16px;
+        /* gap: 16px; */
     min-width: 165px;
     justify-content: center;
     align-items: center;
