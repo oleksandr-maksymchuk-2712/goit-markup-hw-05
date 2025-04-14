@@ -650,6 +650,10 @@ transform: translate(-50%, -50%) scale(1.5);
     margin-bottom: 8px;
 }
 
+.modal-textarea-mb{
+    margin-bottom: 16px;
+}
+
 .modal-label{
 flex-direction: column;
 font-weight: 400;
@@ -710,10 +714,6 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .modal-textarea:focus{
     border-color: #4D5AE5;
-}
-
-.text-area-mb{
-    margin-bottom: 16px;
 }
 
 .checkbox{
