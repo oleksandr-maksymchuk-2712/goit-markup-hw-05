@@ -145,6 +145,8 @@ max-width: 1440px;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
+margin-right: auto;
+margin-left: auto;
 }
 
 .title{
@@ -535,8 +537,6 @@ input::placeholder {
 
 .subscribe-telegram-icons{
     fill: #fff;
-    position: absolute;
-    margin-left: 16px;
 }
 
 .subscribe-button{
