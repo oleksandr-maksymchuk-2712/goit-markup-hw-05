@@ -712,6 +712,10 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-color: #4D5AE5;
 }
 
+.text-area-mb{
+    margin-bottom: 16px;
+}
+
 .checkbox{
     display: flex;
     flex-wrap: nowrap;
